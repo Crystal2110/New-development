@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>Travel Form</title>
+      </head>
+
+      <body>
+            <div id="container">
+            <h1>Welcome to :) Airline</h1>
+            <p>Please fill out the following form so that we can provide the best service for you.</p>
+            <form id="travel-form">
+                  <lable for="">First Name:</lable>
+                  <input type="text" name="first-name" id="firstName"/>
+                  <br>
+                   <label for="">Last Name:</label>
+                  <input type="text" name="last-name" id="lastName"/>
+                  <br>
+                  <label for="">Age:</label>
+                  <input type="number" name="age" id="age"/>
+                  <br>
+                  <label for="">Gender:</label>
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender" id="gender" value="male"/>
+                  <label for="female">Female</label>
+                  <input type="radio" name="gender" id="gender" value="female"/>
+                  <br>
+                  <label for="">Location:</label>
+                  <select name="location" id="location">
+                        <option value="Sahara Desert">Sahara Desert</option>
+                        <option value="Dead Sea">Dead Sea</option>
+                        <option value="Devils Tower">Devils Tower</option>
+                  </select>
+                  <br>
+                  <label for="">Diet:</label>
+                  <label for="vegetarian">Vegetarian</label>
+                  <input class="diet" type="checkbox" name="food" id="vegetarian" value="Vegetarian"/>
+                  
+                  <label for="kosher">Kosher</label>
+                  <input class="diet" type="checkbox" name="food" id="Kosher" value="Kosher"/>
+
+                  <label for="lactose free">Lactose Free</label>
+                  <input class="diet" type="checkbox" name="food" id="lactose free" value="Lactose Free">
+                  <br>
+                  <button id="submit">Submit</button>
+            </form>
+                  <script src="index.js"></script>
+            </div>
+      </body>
+</html>

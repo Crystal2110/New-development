@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,700);
+
+/* *, *::before, *::after {
+  box-sizing: border-box;
+} */
+
+html {
+      min-height: 100%;
+}
+    
+body {
+      margin: 20px;
+      color: #435757;
+      background: linear-gradient(-20deg, #d0b782 20%, #a0cecf 80%);
+      font: 500 1.2em/1.2 'Roboto', sans-serif;
+}
+
+
+.div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      color: #ffeead
+}
+
+.header {
+      /* margin: 0; */
+      /* padding: 20px; */
+      background-color: rgba(255, 255, 255, .4);
+      font-size: 1.8em;
+      text-align: center;
+      color:rgb(81, 77, 77);
+      font-size: 40px;
+      /* font-family: monospace; */
+      padding: 12px;
+      margin: auto;
+
+}
+
+form {
+      margin: 15px auto;
+}
+
+form input{
+      position:relative;
+      display:block;
+      color:grey;
+      text-shadow:0 1px white;
+      font-weight:bold;
+      padding: 5px 0;
+      /* color: white; */
+    font-size:1.0em;
+    
+
+}
+
+form button {
+      
+      border: 1px solid rgba(27, 31, 35, 0.15);
+      border-radius: 8px;
+      border-width: 0;
+      color: #333333;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 20px;
+      list-style: none;
+      margin: 0;
+      padding: 10px 12px;
+      text-align: center;
+      transition: all 200ms;
+      /* vertical-align: baseline;
+      white-space: nowrap;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation; */
+
+
+}
+
+
+div span {
+      display:inline-block;
+      position:relative;
+      padding: 2px 0 10px 15px;
+      border-bottom: 1px dashed #fff;
+      /* cursor: pointer; */
+      /* animation: undone .5s; */
+}
+
+div#todo-list{
+      display: flex;
+      flex-direction: column;
+   
+}
+
+/* input[type="checkbox"] {
+      /* content: '\f10c'; 
+      /* display: block; */
+      /* position: absolute; */
+      /* top: 11px;
+      left: 10px;
+        content: "\f10c"; /* circle outline */
+/* 
+input[type="checkbox"] {
+      font: 1.5em "FontAwesome";
+} */
+/* div#todo-list input[checkbox]{
+      font-size: 70px;
+      font: 1.5em "FontAwesome";
+} */
+
+input[type="checkbox" i] {
+      width: 1.5em;
+      height: 1.5em;
+      background-color: white;
+      border-radius: 50%;
+      vertical-align: middle;
+      border: 5px solid #ddd;
+      appearance: none;
+      outline: none;
+      cursor: pointer;
+
+  }
+
+  input[type="checkbox" i]:checked {
+     background-color: rgb(165, 133, 58);
+  }
+
+  
+
+button.delete {
+      font-size: 16px;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 30px;
+      border-style: none;
+      box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+      box-sizing: border-box;
+      color: #3c4043;
+      cursor: pointer;
+      height: 25px;
+      padding: 2px 15px;
+}

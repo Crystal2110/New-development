@@ -1,0 +1,59 @@
+{"menu": {
+   "appetizers":[
+      {
+            "name": "CREAMY ARTICHOKE & SPINACH DIP",
+            "ingredients": "artichoke hearts,spinach,onions and Parmesan cheese. Served with tortilla chips, warm garlic focaccia bread and celery.",
+            "price": "$8.99"
+      },
+      {
+            "name": "GARDEN FRESH HUMMUS PLATE",
+            "ingredients": "traditional hummus, drizzled with extra virgin olive oil and roasted garlic. Served with warm garlic focaccia bread, fire-grilled zucchini sticks, cucumber, crisp jicama and baby carrots.",
+            "price": "$7.99"
+      } 
+   ],
+   "cold sandwiches":[
+      {
+            "name": "BBLT",
+            "ingredients": "bacon,tomato,lettuce,black pepper balsamic, white toast",
+            "price": "$8.99"
+      },
+      {
+            "name": "CARVED HAM & SWISS",
+            "ingredients": "pecan wood smoked ham, Swiss cheese, tomato,red onion, stoneground mustard, baguette",
+            "price": "8.99"
+      }      
+   ],
+   "hot sandwiches":[
+      {
+            "name": "ULTIMATE GRIILED CHEESE",
+            "ingredients": "Three cheese Grilled Cheese.'Swiss, American & Provolone' Cheeses melted with creamy butter",
+            "price":"4.90"
+      },
+      {
+            "name": "TURKEY MELT",
+            "ingredients": "House Turkey, dipped in our House Chicken Broth, Melted Swiss Cheese, Served on a Toasted Bun",
+            "price": "$7.99"
+      }
+   ],
+   "desserts":[
+         {
+            "name": "COOKIES",
+            "ingredients": "variety of cookies including: Chocolate Chip, Monster, Oatmeal Raisin, Sugar, and English Toffee.",
+            "price": "1.99"
+         }
+   ],
+   "drinks":[
+         {
+            "name": "HAND-ROASTED COFFEE",
+            "ingredients": "Hand-roasted coffee in your favorite variety: Baker's Blend, Cofe Europe, Hazelnut, or Sumatra Decaf.",
+            "price": "$2.79"
+         },
+         {
+            "name": "FOUNTAIN SODA",
+            "ingredients": "Choose from among your favorite fountain soda flavors",
+            "price": "2.99"
+         }
+   ]
+}
+
+}

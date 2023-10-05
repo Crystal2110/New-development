@@ -1,0 +1,22 @@
+.Add {
+      border: 5px;
+      padding: 5px;
+      background: #ccffdd;
+      font-family: Arial;
+     }
+     
+     
+     
+     .Sub {
+     border: 1px;
+     padding:5px;
+     background: #ccd1ff;
+     font-family: Arial;
+     }
+     
+     .Mul {
+     border: 1px;
+     padding:5px;
+     background: #ffe5cc;
+     font-family: Arial;
+     }

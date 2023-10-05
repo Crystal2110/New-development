@@ -1,0 +1,24 @@
+button{
+      display:block;
+      font-size: 30px;
+      margin:30px;
+      background-color: rgb(203, 218, 231);
+  }
+  
+  a#click{
+      display:block;
+      font-size: 55px;
+      position: relative; 
+      /* top: 0px; */
+      left:90px;
+  }
+  
+  
+   p{
+      font-size: 28px;
+      position: relative; 
+      top:10px;
+      left: 90px;
+      
+     
+  } 
