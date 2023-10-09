@@ -9,7 +9,7 @@ function getData(){
       
       
 function listData(data){
-      clearList()
+         clearList()
 
 
 
@@ -74,7 +74,8 @@ document.getElementById("todo-list").appendChild(todoElement);
 function updateCompletionStatus(itemId, completed) {
       const updatedData = {completed: completed};
 
-      axios.put(`https://api.vschool.io/crystal_m/todo/${itemId}`, updatedData)
+      axios
+      .put(`https://api.vschool.io/crystal_m/todo/${itemId}`, updatedData)
       .then(res=> {
             console.log(res.data);
             getData();
@@ -84,50 +85,52 @@ function updateCompletionStatus(itemId, completed) {
 
           
 
-      function deleteItem(itemId){
+function deleteItem(itemId){
 
       
-            // const itemId = data[i]._id;
-            axios
-            .delete(`https://api.vschool.io/crystal_m/todo/${itemId}`)
-            .then(res => {console.log(res.data)
-                          getData()})
-            .catch(error => console.log(error))
-      }   
+      // const itemId = data[i]._id;
+axios
+.delete(`https://api.vschool.io/crystal_m/todo/${itemId}`)
+.then(res => {
+      console.log(res.data)
+      getData()})
+.catch(error => console.log(error))
+}   
       
       
       
-      function clearList(){
-            const el = document.getElementById("todo-list")
-            while(el.firstChild){
+function clearList(){
+      const el = document.getElementById("todo-list")
+      while(el.firstChild){
                   el.removeChild(el.firstChild)
-            }
       }
+}
       
-      getData()
+getData()
       
-      const todoForm = document["todo-form"]
+const todoForm = document["todo-form"]
       
-      todoForm.addEventListener("submit", function(data){
-            data.preventDefault();
+todoForm.addEventListener("submit", function(data){
+    data.preventDefault();
       
-            const newTodo = {
-                  title: todoForm.title.value,
-                  price: parseInt(todoForm.price.value),
-                  description: todoForm.description.value,
-                  imgUrl: todoForm.imgUrl.value
+const newTodo = {
+      title: todoForm.title.value,
+      price: parseInt(todoForm.price.value),
+      description: todoForm.description.value,
+      imgUrl: todoForm.imgUrl.value
       
-            };
+};
       
-            todoForm.title.value = '';
-            todoForm.price.value = '';
-            todoForm.description.value = '';
-            todoForm.imgUrl.value = '';
+      todoForm.title.value = '';
+      todoForm.price.value = '';
+      todoForm.description.value = '';
+      todoForm.imgUrl.value = '';
       
-            todoForm.title.value = "";
+      // todoForm.title.value = "";
       
-            axios.post("https://api.vschool.io/crystal_m/todo/", newTodo)
-                 .then(res => getData())
-                 .catch(err => console.log(err))
-      });
+axios
+      .post("https://api.vschool.io/crystal_m/todo/", newTodo)
+      .then(res => getData())
+      .catch(err => console.log(err))
+});
  
