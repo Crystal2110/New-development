@@ -45,3 +45,5 @@ const byAge = info.sort(function(a, b){
 })
 
 console.log(byAge)
+
+

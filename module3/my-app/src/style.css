@@ -1,0 +1,39 @@
+footer {
+      
+      position:fixed;
+      top: 15px;
+      /* height:20%; */
+      clear: both;
+      padding: 3em 10%;
+      color: #d56767;
+      background: #134347;
+      text-align: center;
+      }
+      
+
+
+
+
+.fa-brands {
+      display:inline-block;
+      /* font-family: "Font Awesome 6 Free"; */
+      /* font-weight: 900; */
+      font-style: normal;
+      font-variant: normal;
+      line-height: 1;
+      text-rendering: auto;
+      /* content: "\f368"; */
+      font-size: 2.7em;
+      color: rgba(255, 255, 255, 0.5);
+      }
+
+i.fa-brands {
+            /* display: inline-block; */
+            border-radius: 80px;
+            box-shadow: 0 0 2px ;
+            padding: 0.4em 0.3em;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            height:55px;
+            width:55px;
+            }      
+            

@@ -97,15 +97,15 @@ const animals = [
       }
    ];
    
-   function filterForDogs(arr) {
-       return arr.filter(animal => {
-           if (animal.type === "dog") {
-               return true
-           } else {
-               return false
-           }
-       })
-   }
+//    function filterForDogs(arr) {
+//        return arr.filter(animal => {
+//            if (animal.type === "dog") {
+//                return true
+//            } else {
+//                return false
+//            }
+//        })
+//    }
    
 
 const  filterForDogs = arr => arr.filter(animal => animal.type === "dog" )
