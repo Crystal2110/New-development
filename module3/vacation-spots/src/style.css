@@ -1,0 +1,67 @@
+* {
+      box-sizing: border-box;
+}
+
+body {
+      margin: 10px;
+      font-family: 'Poppins', sans-serif;
+}
+
+.spots {
+      width: 175px;
+      /* font-size: 12px; */
+      flex: 0 0 auto;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding-left: 15px;
+      padding-top: 12px;
+      border-radius: 9px;
+}
+
+.spots-place {
+      font-weight: bold;
+
+}
+
+.bold {
+      font-weight: bold;
+}
+
+.spots-price {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      /* color: #918E9B; */
+      /* background-color: paleturquoise; */
+}
+
+.dollarSigns {
+      margin-top: 10px;
+      font-size: 13px;
+      margin-bottom: 10px;
+      
+}
+
+.seasons {
+      font-size: 12px;;
+}
+
+.cards-list {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 50px;
+      overflow-x: auto;
+
+}
+
+/* .spots-image {
+      width: 100%;
+      border-radius: 9px;
+      margin-bottom: 9px;
+} */
+
+.time-seasons {
+      overflow: hidden;
+      text-overflow: ellipsis;
+}
+

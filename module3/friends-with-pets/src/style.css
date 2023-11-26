@@ -1,0 +1,53 @@
+* {
+      box-sizing: border-box;
+}
+
+body {
+      margin: 10px;
+      font-family: 'Poppins', sans-serif; 
+}
+
+.Friend {
+      width: 276px;
+      /* font-size: 12px; */
+      flex: 0 0 auto;
+      /* display: flex; */
+      flex-direction: column;
+      position: relative;
+      padding-left: 25px;
+      padding-top: 12px;
+      /* border-radius: 9px; */
+}
+
+.post-age {
+      margin-left: 28px;
+}
+
+.post-preview {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 100px;
+      overflow-x: auto;
+}
+
+i.fa-dog {
+      padding: 5px;
+}
+
+i.fa-cat {
+      padding: 5px;
+}
+.pet-name {
+      position: relative;
+      padding: 0px;
+      left: -3px;
+}
+
+p.pet-name:first-letter {
+      text-transform: uppercase;
+
+}
+
+.pet-breed {
+      padding-left: 30px;
+}
